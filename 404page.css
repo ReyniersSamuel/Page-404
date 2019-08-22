@@ -1,0 +1,158 @@
+body{
+	font-family: 'Courgette', cursive;
+}
+body{
+    background: #030005;
+}	
+.wrap{
+	margin:0 auto;
+	width:50%;
+}
+.logo{
+    margin-top:50px;
+}
+   	
+.logo h1{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50% , -50%);
+        -ms-transform: translate(-50% , -50%);
+            transform: translate(-50% , -50%);
+    font-size: 224px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -12px;
+    color: #030005;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0px #8400ff, 1px 1px 0px #ff005a;
+    letter-spacing: -20px;
+}	
+.logo p{
+	font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #ff005a;
+  text-decoration: none;
+  border: 2px solid;
+  background: transparent;
+  padding: 10px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}	
+.logo p span{
+	color: #8400ff;
+}		
+.footer{
+	color:#8F8E8C;
+	position:absolute;
+	right:10px;
+	bottom:10px;
+}	
+.footer a{
+	color:rgb(228, 146, 162);
+}	
+@media screen and (max-width: 1024px){
+	.logo h1 {
+    font-size: 180px;
+}
+}
+@media screen and (max-width: 991px){
+	.logo h1 {
+		font-size: 170px;
+	}
+}
+@media screen and (max-width: 900px){
+	.logo h1 {
+		font-size: 160px;
+		margin-top: 130px;
+	}
+}
+@media screen and (max-width: 800px){
+	.logo h1 {
+		font-size: 140px;
+		margin-top: 135px;
+	}
+}
+@media screen and (max-width: 768px){
+	.logo h1 {
+		font-size: 135px;
+	}
+	.logo p {
+        font-size: 18px;
+	}
+}
+@media screen and (max-width: 667px){
+	.logo h1 {
+		font-size: 130px;
+		margin-top: 150px;
+	}
+}	
+@media screen and (max-width: 640px){
+	.logo h1 {
+    	font-size: 126px;
+	}
+	.footer {
+       font-size: 15px
+	}
+}
+@media screen and (max-width: 600px){
+	.logo h1 {
+		font-size: 120px;
+	}
+}
+
+@media screen and (max-width: 568px){
+	.logo h1 {
+		font-size: 110px;
+	}
+	.footer {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 480px){
+	.logo h1 {
+		font-size: 105px;
+		margin-top: 165px;
+	}
+}
+@media screen and (max-width: 414px){ 
+	.logo h1 {
+		font-size: 100px;
+		margin-top: 180px;
+	}
+}
+@media screen and (max-width: 384px){
+	.logo h1 {
+   		 font-size: 96px;
+	}
+	.logo p {
+		font-size: 17px;
+	}
+	.footer {
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 375px){
+	.logo h1 {
+		font-size: 90px;
+	}
+	.footer {
+		font-size: 13px;
+		line-height: 1.8;
+		text-align: center;
+		padding: 1em;
+	}
+}
+@media screen and (max-width: 320px){
+	.logo h1 {
+		font-size: 84px;
+	}
+	.logo p {
+		font-size: 16px;
+	}
+}
